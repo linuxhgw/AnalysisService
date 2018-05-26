@@ -1,0 +1,6 @@
+ServerIP
+172.16.73.89:3306/simulationdatacollection
+username
+root
+password
+root

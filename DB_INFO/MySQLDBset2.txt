@@ -1,0 +1,8 @@
+ServerIP
+localhost
+username
+hgw
+password
+hgw11
+database
+test

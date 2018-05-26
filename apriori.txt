@@ -1,0 +1,34 @@
+=====说明=====
+<conf>:置信度（百分比）
+<lift>:提升度  （min=1,表示事件独立,越大关联越紧密）
+<lev>:杠杆率 （min=0,表示事件独立,越大关联越紧密）
+<conv>:确信度,越大关联越紧密
+============
+Apriori
+=======
+
+Minimum support: 0.5 (12 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 10
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 7
+
+Large Itemsets L(1):
+spectacle_prescrip=myope 12
+spectacle_prescrip=hypermetrope 12
+astigmatism=no 12
+astigmatism=yes 12
+tear_prod_rate=reduced 12
+tear_prod_rate=normal 12
+contact_lenses=none 15
+
+Size of set of large itemsets L(2): 1
+
+Large Itemsets L(2):
+tear_prod_rate=reduced contact_lenses=none 12
+
+Best rules found:
+
+ 1. tear_prod_rate=reduced 12 ==> contact_lenses=none 12    <conf:(1)> lift:(1.6) lev:(0.19) [4] conv:(4.5)
