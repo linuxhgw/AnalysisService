@@ -48,7 +48,7 @@ public class InstanceDAO extends BaseDAO{
 
 		Instances dataset = null;
 		try {//查询数据进行算法计算
-			ResultSet rs = query(connection, "SELECT MAX(MemberId) FROM " +schemeName+ " WHERE FederationId = ?", schemeId);
+			ResultSet rs = query(connection, "SELECT MAX(MemberId) FROM " +schemeName+ " WHERE RunID = ?", schemeId);
 			if (rs.first()) {
 				maxAttrs = rs.getInt(1);//查询方案中属性个数
 				rs.close();
@@ -68,7 +68,7 @@ public class InstanceDAO extends BaseDAO{
 			//为各个属性添加属性值实例
 			List<SimulationAttribute> attrs = new ArrayList<SimulationAttribute>();
 			
-			rs = query(connection, "select * from " +schemeName+ " where FederationId = ? and step between ? and ?",schemeId, startStep,endStep);
+			rs = query(connection, "select * from " +schemeName+ " where RunID = ? and step between ? and ?",schemeId, startStep,endStep);
 			while (rs.next()) {
 				SimulationAttribute attr = new SimulationAttribute();
 				attr.setSchemeId(schemeId);

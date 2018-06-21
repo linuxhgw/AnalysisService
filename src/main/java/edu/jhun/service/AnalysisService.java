@@ -77,8 +77,7 @@ public class AnalysisService {
 		String[] s2 = new String[steplength.length()];
 		s2 = steplength.split("-");// 以-为分界符找到分析步长，s2[0]起s2[1]止
 		int endStep = Integer.valueOf(s2[1]);
-		ResultSet rs = InstanceDAO.query(connection, "SELECT MAX(step) FROM " + schemeName + " WHERE FederationId = ?",
-				schemeId);
+		ResultSet rs = InstanceDAO.query(connection, "SELECT MAX(step) FROM " + schemeName );
 		try {
 			if (rs.first()) {
 				maxStep = rs.getInt(1);// 查询方案中步数最大值
@@ -186,9 +185,9 @@ public class AnalysisService {
 	 * @return weka数据集
 	 */
 	private synchronized Instances getDatasetByDB(String tb) {
-		final String sqlUrl = "jdbc:mysql://172.16.73.89:3306/simulationdatacollection";
-		final String sqlUser = "root";
-		final String sqlPwd = "root";
+		final String sqlUrl = "jdbc:mysql://localhost:3306/test";
+		final String sqlUser = "hgw";
+		final String sqlPwd = "hgw11";
 		Instances dataset = null;
 		try {
 			DatabaseLoader loader = new DatabaseLoader();
@@ -260,7 +259,7 @@ public class AnalysisService {
 				+ Thread.currentThread().getStackTrace()[1].getMethodName() + "***");
 		if (!checkMaxStep(connection, attrId, steplength)) {
 			System.out.println("Step out of bounds!");
-			return "Step out of bounds!";
+			return "Step out of bounds";
 		}
 		Instances dataset = InstanceDAO.getLRDataset(connection, attrId, steplength);
 		// 进行线性回归运算
@@ -435,7 +434,7 @@ public class AnalysisService {
 		try {
 			rs = new MemberDAO().MemberResult(SchemeId);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			System.out.println("没有成员");
 			e.printStackTrace();
 		}
 		return rs;

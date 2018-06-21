@@ -11,19 +11,20 @@ public class RequestedString {
 	private String MemberId;
 	private String startStep;
 	private String endStep;
-	private String timer;
+	private String RunID;
 
 	//	private String Outputvalue;
 	private String caseName;//表名
-	
 
 
-	public String gettimer() {
-		return timer;
+
+
+	public String getRunID() {
+		return RunID;
 	}
 
-	public void settimer(String timer) {
-		this.timer = timer;
+	public void setRunID(String timer) {
+		this.RunID = timer;
 	}
 
 	public String getCaseName() {
@@ -73,14 +74,14 @@ public class RequestedString {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "方案名:"+caseName+"运行次数："+timer+"  MemberId:"+MemberId+"  startStep:"+startStep+"  endStep:"+endStep;
+		return "方案名:"+caseName+"运行次数："+RunID+"  MemberId:"+MemberId+"  startStep:"+startStep+"  endStep:"+endStep;
 	}
 	
 	public RequestedString()
 	{
 		this.reqStr=null;
 		caseName=null;
-		timer=null;
+		RunID=null;
 		MemberId=null;
 		startStep=null;
 		endStep=null;
@@ -103,15 +104,14 @@ public class RequestedString {
 		this.caseName=splitedStrings[0];
 		if(splitedStrings.length==5)
 		{
-			
-			this.MemberId=splitedStrings[1];
-				this.timer=splitedStrings[2];
+			this.RunID=splitedStrings[1];
+			this.MemberId=splitedStrings[2];
+
 			this.startStep=splitedStrings[3];
 			this.endStep=splitedStrings[4];
 		}else if(splitedStrings.length==6){ //属性默认不管，有属性时再处理
-			
-			this.MemberId=splitedStrings[1];
-			this.timer=splitedStrings[3];
+			this.RunID=splitedStrings[1];
+			this.MemberId=splitedStrings[3];
 			this.startStep=splitedStrings[4];
 			this.endStep=splitedStrings[5];
 		}

@@ -23,8 +23,8 @@ public class StepValueDao extends BaseDAO{
 		caseName=reqStr.getCaseName();
 		ResultSet rs=null;
 		rs=query(con, 
-				"select Outputvalue,step,time from "+caseName+" where timer=? and MemberId=? and step between ? and ?",
-				reqStr.gettimer(),reqStr.getMemberId(),reqStr.getStartStep(),reqStr.getEndStep());
+				"select Outputvalue,step,time from "+caseName+" where RunID=? and MemberId=? and step between ? and ?",
+				reqStr.getRunID(),reqStr.getMemberId(),reqStr.getStartStep(),reqStr.getEndStep());
 
 		return rs;
 	}
