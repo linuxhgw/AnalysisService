@@ -26,7 +26,7 @@ public class SchemeDAO extends BaseDAO {
 				while (rs.next()) {
 					shemeId = rs.getString("SCHEME_ID");
 					shemeName = rs.getString("SCHEME_NAME");
-					formulalist=formulalist+(shemeName+"-"+shemeId)+";";
+					formulalist+=(shemeName+"-"+shemeId)+";";
 				}
 				return formulalist;
 			} catch (SQLException e) {

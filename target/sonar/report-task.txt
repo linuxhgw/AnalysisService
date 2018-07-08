@@ -1,0 +1,6 @@
+projectKey=org.springframework.boot:AnalysisService
+serverUrl=http://localhost:9000
+serverVersion=7.2.1.14109
+dashboardUrl=http://localhost:9000/dashboard?id=org.springframework.boot%3AAnalysisService
+ceTaskId=AWRkiV1PdlNlRyTeH-Um
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWRkiV1PdlNlRyTeH-Um

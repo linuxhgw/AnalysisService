@@ -13,7 +13,7 @@ import edu.jhun.utils.DBHelper;
 public class MemberDAO  extends BaseDAO{
 	//private static DBHelper2 dbhelper=new DBHelper2("root", "root");
 	private Connection connection = DBHelper.getConnection();
-	public String MemberResult(String SchemeId) throws SQLException {
+	public String MemberResult(String SchemeId){
 		String sql = "SELECT SCHEME_MEMBER_ID  , model_name FROM simu_model_info where SCHEME_ID =?";
 		ResultSet rs = null;
 //		PreparedStatement preparedStatement = dbhelper.connection.prepareStatement(sql);
@@ -25,7 +25,7 @@ public class MemberDAO  extends BaseDAO{
 		if (rs != null) {
 			try {
 				while (rs.next()) {
-					formulalist=formulalist+rs.getString("model_name")+"-"+rs.getString("SCHEME_MEMBER_ID")+";";
+					formulalist+=rs.getString("model_name")+"-"+rs.getString("SCHEME_MEMBER_ID")+";";
 				}
 				return formulalist;
 			} catch (SQLException e) {

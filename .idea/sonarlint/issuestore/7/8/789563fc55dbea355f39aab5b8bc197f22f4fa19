@@ -1,0 +1,7 @@
+
+3squid:S1643"Use a StringBuilder instead.(‹ü¨
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æÄù ùÿÿÿÿ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û“Ùª
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(—ôŞ¾üÿÿÿÿ
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û“Ùª
+?squid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

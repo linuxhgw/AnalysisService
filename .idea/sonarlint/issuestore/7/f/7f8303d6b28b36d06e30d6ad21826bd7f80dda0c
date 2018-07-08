@@ -1,0 +1,38 @@
+
+bsquid:CommentedOutCodeLined"<This block of commented-out lines of code should be removed.(ÝŒ—‚
+hsquid:S3008"QRename this field "DBType" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÿÕÛ
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(´©õËÿÿÿÿÿ
+hsquid:S2095&"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(šÄþ¾úÿÿÿÿ
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(¶ÀÉåûÿÿÿÿ
+T
+squid:S106X"9Replace this use of System.out or System.err by a logger.(´©õËÿÿÿÿÿ
+?squid:S1125:"(Remove the literal "true" boolean value.(¤÷Ä¹
+?squid:S1125h"(Remove the literal "true" boolean value.(¤÷Ä¹
+gsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(êÖ”ùÿÿÿÿ
+T
+squid:S1065"9Replace this use of System.out or System.err by a logger.(«£øÿÿÿÿ
+Isquid:S1905r"-Remove this unnecessary cast to "Connection".(‚å¨Êüÿÿÿÿ
+O
+squid:S106K"9Replace this use of System.out or System.err by a logger.(Éáðè
+msquid:S3008"QRename this field "DBflag" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ç¢Šýÿÿÿÿ
+T
+squid:S106s"9Replace this use of System.out or System.err by a logger.(áâË±ûÿÿÿÿ
+N
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ß•ž
+Dsquid:S1905k"-Remove this unnecessary cast to "Connection".(ú„±’
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(÷´¼Ÿ
+bsquid:CommentedOutCodeLinep"<This block of commented-out lines of code should be removed.(©‘âÞ
+csquid:S2095S"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(€»é­
+O
+squid:S106y"9Replace this use of System.out or System.err by a logger.(â¦õÒ
+Isquid:S1135x"2Complete the task associated to this TODO comment.(‡ñÅ¼
+bsquid:CommentedOutCodeLine\"<This block of commented-out lines of code should be removed.(ÿ­Ø 
+T
+squid:S106G"9Replace this use of System.out or System.err by a logger.(­ ‘ˆüÿÿÿÿ
+bsquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(æÃªå
+O
+squid:S106l"9Replace this use of System.out or System.err by a logger.(‚Òµê
+O
+squid:S106t"9Replace this use of System.out or System.err by a logger.(ä³…‹
+isquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âóÓ”

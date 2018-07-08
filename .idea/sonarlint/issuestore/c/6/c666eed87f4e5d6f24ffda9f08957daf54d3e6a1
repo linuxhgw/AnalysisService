@@ -1,0 +1,25 @@
+
+[
+squid:S106T"9Replace this use of System.out or System.err by a logger.(Ó©Ö•üÿÿÿÿ8¸‰ÔÄÆ,
+[
+squid:S106C"9Replace this use of System.out or System.err by a logger.(ÄØ¾êşÿÿÿÿ8¸‰ÔÄÆ,
+osquid:S1192!"LDefine a constant instead of duplicating this literal "\nResult:\n" 4 times.(®Êûîûÿÿÿÿ8¸‰ÔÄÆ,
+U
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ƒÚáB8¸‰ÔÄÆ,
+[
+squid:S106""9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8¸‰ÔÄÆ,
+U
+squid:S106E"9Replace this use of System.out or System.err by a logger.(ƒÚáB8¸‰ÔÄÆ,
+?squid:S1643"Use a StringBuilder instead.(ëÖÑìıÿÿÿÿ8¸‰ÔÄÆ,
+:squid:S1643R"Use a StringBuilder instead.(‰ìÈÕ8¸‰ÔÄÆ,
+:squid:S1643-"Use a StringBuilder instead.(‰ìÈÕ8¸‰ÔÄÆ,
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ÄØ¾êşÿÿÿÿ8¸‰ÔÄÆ,
+\squid:S1854N"9Remove this useless assignment to local variable "dbDao".(ªĞƒ•şÿÿÿÿ8¸‰ÔÄÆ,
+U
+squid:S106U"9Replace this use of System.out or System.err by a logger.(ƒÚáB8¸‰ÔÄÆ,
+zsquid:S1192 "WDefine a constant instead of duplicating this literal " Request the Service: " 4 times.(ÄØ¾êşÿÿÿÿ8¸‰ÔÄÆ,
+[
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ÄØ¾êşÿÿÿÿ8¸‰ÔÄÆ,
+Msquid:S1481N"*Remove this unused "dbDao" local variable.(ªĞƒ•şÿÿÿÿ8¸‰ÔÄÆ,
+?squid:S1643A"Use a StringBuilder instead.(Ì‡ˆ§ÿÿÿÿÿ8¸‰ÔÄÆ,

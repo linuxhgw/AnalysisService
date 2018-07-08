@@ -1,0 +1,27 @@
+
+vsquid:S00117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ€ã£øÿÿÿÿ8îÜæÈÆ,
+usquid:S00117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ€ã£øÿÿÿÿ8§ªÈğÆ,
+psquid:S001177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Íğè8ÄªÄğÆ,
+osquid:S00117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”À÷I8ü©…ïÆ,
+psquid:S00117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼”“’8ËË ÈÆ,
+ysquid:S1450#"[Remove the "AttributeId2" field and declare it as a local variable in the relevant methods.(°íşˆ8£ò‡ÈÆ,
+Usquid:UselessImportCheck"%Remove this unused import 'weka.Run'.(Ú‰ƒşÿÿÿÿ8²ĞÈÆ,
+Osquid:S1153K"1Directly append the argument of String.valueOf().(é®Äú8ËË ÈÆ,
+Fsquid:S1148s"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ËË ÈÆ,
+V
+squid:S106t"9Replace this use of System.out or System.err by a logger.( £·Ù8ËË ÈÆ,
+Vsquid:S1135Â"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÂÈäÎÆ,
+Ksquid:S1481›",Remove this unused "preList" local variable.(èƒ×â8¹¦ìÎÆ,
+zsquid:S00116""VRename this field "AttributeId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Ì¹µÿÿÿÿÿ8£ò‡ÈÆ,
+Zsquid:S1854›";Remove this useless assignment to local variable "preList".(èƒ×â8¹¦ìÎÆ,
+esquid:UselessImportCheck"5Remove this unused import 'java.lang.reflect.Member'.(ƒô¾‘ùÿÿÿÿ8è¬äÇÆ,
+vsquid:S00116#"WRename this field "AttributeId2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°íşˆ8£ò‡ÈÆ,
+qsquid:S00117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÙëÒ8îÜæÈÆ,
+ksquid:UselessImportCheck";Remove this unused import 'com.alibaba.fastjson.JSONArray'.(ÿÀâ³ùÿÿÿÿ8µ­ŸïÆ,
+Gsquid:S1148Ã"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÂÈäÎÆ,
+psquid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÙëÒ8§ªÈğÆ,
+vsquid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê’³ÿÿÿÿÿ8îÜæÈÆ,
+qsquid:S00116"SRename this field "MemberId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢±úo8£ò‡ÈÆ,
+tsquid:S00116&"PRename this field "RunID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–½ş–ûÿÿÿÿ8£ò‡ÈÆ,
+qsquid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùş¡Š8‘ëëÎÆ,
+qsquid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼”“’8ËË ÈÆ,

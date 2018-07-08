@@ -5,60 +5,59 @@ package edu.jhun.bean;
  */
 public class PreParedData {
 
-	private double ouputValue;
-	private int step;
-	private double time=0.0;
-	
-	
-	
-	public PreParedData()
-	{
-		
-	}
-	
-	public PreParedData(double ouputValue, int step) {
-		super();
-		this.ouputValue = ouputValue;
-		this.step = step;
-	}
-	public PreParedData(double ouputValue, int step,double time) {
-		super();
-		this.ouputValue = ouputValue;
-		this.step = step;
-		this.time = time;
-		
-	}
-	
+    private double ouputValue;
+    private int step;
+    private double time = 0.0;
 
-	public double getOuputValue() {
-		return ouputValue;
-	}
-	public void setOuputValue(double ouputValue) {
-		this.ouputValue = ouputValue;
-	}
-	public int getStep() {
-		return step;
-	}
-	public void setStep(int step) {
-		this.step = step;
-	}
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return "值："+ouputValue+"  步长"+step;
-	}
 
-	/**
-	 * @return the time
-	 */
-	public double getTime() {
-		return time;
-	}
+    public PreParedData() {
 
-	/**
-	 * @param time the time to set
-	 */
-	public void setTime(double time) {
-		this.time = time;
-	}
+    }
+
+    public PreParedData(double ouputValue, int step) {
+        super();
+        this.ouputValue = ouputValue;
+        this.step = step;
+    }
+
+    public PreParedData(double ouputValue, int step, double time) {
+        super();
+        this.ouputValue = ouputValue;
+        this.step = step;
+        this.time = time;
+
+    }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "值：" + ouputValue + "  步长" + step;
+    }
+
+
+    public double getOuputValue() {
+        return ouputValue;
+    }
+
+    public void setOuputValue(double  ouputValue) {
+        this.ouputValue = ouputValue;
+    }
+
+    public int getStep() {
+        return step;
+    }
+
+    public void setStep(int step) {
+        this.step = step;
+    }
+
+    public double getTime() {
+        return time;
+    }
+
+    public void setTime(double time) {
+        this.time = time;
+    }
+
+
 }

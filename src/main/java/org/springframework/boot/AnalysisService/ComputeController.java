@@ -5,9 +5,9 @@ package org.springframework.boot.AnalysisService;
 
 
 import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 
+import edu.jhun.service.GetEasyValueService;
+import edu.jhun.service.SchemeListService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import edu.jhun.service.AnalysisService;
+import edu.jhun.service.AlgorithmService;
 import edu.jhun.utils.*;
 
 
@@ -32,11 +32,9 @@ public class ComputeController {
 
 	private final Logger logger = Logger.getLogger(getClass());
 	private Connection connection = DBHelper.getConnection();
-
-	
-	
-	
-	private AnalysisService analysisService = new AnalysisService();
+	private AlgorithmService algorithmService = new AlgorithmService();
+	private GetEasyValueService getEasyValueService = new GetEasyValueService();
+	private SchemeListService schemeListService =new SchemeListService();
 	@Autowired
 	private DiscoveryClient client;
 
@@ -59,7 +57,7 @@ public class ComputeController {
 	// 最大值-25.0-最小值-15.0-平均值-20.238095238095237-方差-0.6629309000588888-
 	@RequestMapping(value = "/getBasicStatisticsAnalysis", method = RequestMethod.GET)
 	public String getBasicStatisticsAnalysis(@RequestParam String reqStr) {
-		String str = analysisService.getStatistics(reqStr, connection);
+		String str = getEasyValueService.getStatistics(reqStr, connection);
 		return str;
 	}
 
@@ -73,7 +71,7 @@ public class ComputeController {
 	// 返回string=“值-步长-值-步长-”
 	@RequestMapping(value = "/getAtrributeRunData", method = RequestMethod.GET)
 	public String getAtrributeRunData(@RequestParam String reqStr) {
-		String str = analysisService.getDirectData(reqStr, connection);
+		String str = getEasyValueService.getDirectData(reqStr, connection);
 		return str;
 	}	/**
 	 * 获取仿真数据信息（步长-值）
@@ -85,14 +83,14 @@ public class ComputeController {
 	// 返回string=“值-步长-值-步长-”
 	@RequestMapping(value = "/getAtrributeRunTime", method = RequestMethod.GET)
 	public String getAtrributeRuntime(@RequestParam String reqStr) {
-		String str = analysisService.getDirectTime(reqStr, connection);
+		String str = getEasyValueService.getDirectTime(reqStr, connection);
 		return str;
 	}
 	//获取某一属性的（值，步长）方案名-属性1-属性2-仿真次数-起始步长-终止步长
 			//返回string=“值-步长-值-步长-”
 	@RequestMapping(value = "/getStepEqualRunData" ,method = RequestMethod.GET)
 	public String getStepEqualRunData(@RequestParam String reqStr) { 
-		String str=analysisService.getDirectStepEqualData(reqStr, connection);
+		String str=getEasyValueService.getDirectStepEqualData(reqStr, connection);
 		return str;
 	}
 	/**
@@ -106,7 +104,7 @@ public class ComputeController {
 	 */
 	@RequestMapping(value = "/getSimpleLRResult", method = RequestMethod.GET)
 	public String getSimpleLRResult(@RequestParam String attrIndex, @RequestParam String steplength) {
-		String res = analysisService.getSimpleLinearRegression(connection, attrIndex, steplength);
+		String res = algorithmService.getSimpleLinearRegression(connection, attrIndex, steplength);
 		return res;
 	}
 
@@ -121,7 +119,7 @@ public class ComputeController {
 	 */
 	@RequestMapping(value = "/getLinearRegressionResult", method = RequestMethod.GET)
 	public synchronized String getLinearRegressionResult(@RequestParam String attrId, @RequestParam String steplength) {
-		String res = analysisService.getLinearRegression(connection, attrId, steplength);
+		String res = algorithmService.getLinearRegression(connection, attrId, steplength);
 		return res;
 	}
 
@@ -134,7 +132,7 @@ public class ComputeController {
 	 */
 	@RequestMapping(value = "/getAprioriResult", method = RequestMethod.GET)
 	public String getAprioriResult(@RequestParam String tb) {
-		String res = analysisService.getApriori(tb);
+		String res = algorithmService.getApriori(tb);
 		return res;
 	}
 
@@ -150,20 +148,26 @@ public class ComputeController {
 
 	@RequestMapping(value = "/getTimeDomainAnalysis", method = RequestMethod.GET)
 	public synchronized String  getTimeDomainAnalysis(@RequestParam String reqStr) {
-		String res = analysisService.getTimeDomainAnalysis(connection, reqStr);
+		String res = algorithmService.getTimeDomainAnalysis(connection, reqStr);
 		return res;
 	}
 
 	@RequestMapping(value = "/LoadFormulaList1", method = RequestMethod.GET)
 	public synchronized String LoadFormulaList1() {
-		String string = analysisService.LoadFormulaList1();
+		String string = schemeListService.LoadFormulaList1();
 		return string;
 	}
 
-	@RequestMapping(value = "/LoadFormula", method = RequestMethod.GET)
+	@RequestMapping(value = "/LoadFormula", method = RequestMethod.GET)//查询成员
 	public synchronized String LoadFormula(@RequestParam String schemeID) {
-		String string  = analysisService.LoadFormula(schemeID);
+		String string  = schemeListService.LoadFormula(schemeID);
 		return string ;
 		
+	}
+	@RequestMapping(value = "/GetAttributeList", method = RequestMethod.GET)//查询成员
+	public synchronized String GetAttributeList(@RequestParam String mumberID) {
+		String string  = schemeListService.GetAttributeList(mumberID);
+		return string ;
+
 	}
 }

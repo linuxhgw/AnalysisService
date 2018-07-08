@@ -1,0 +1,31 @@
+
+squid:S1319"rThe type of the "preList" object should be an interface such as "List" rather than the implementation "ArrayList".(ë¹šñûÿÿÿÿ
+squid:S13193"rThe type of the "preList" object should be an interface such as "List" rather than the implementation "ArrayList".(Å½ÎÓùÿÿÿÿ
+‰squid:S1319E"rThe type of the "preList" object should be an interface such as "List" rather than the implementation "ArrayList".(Ëú½®
+O
+squid:S106="9Replace this use of System.out or System.err by a logger.(Ïµµş
+T
+squid:S106>"9Replace this use of System.out or System.err by a logger.(çÜóòıÿÿÿÿ
+O
+squid:S106e"9Replace this use of System.out or System.err by a logger.(¬¬¡ë
+T
+squid:S106t"9Replace this use of System.out or System.err by a logger.(×úˆûÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç±±¿
+P
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(„±Şú
+P
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(·Ü—‰
+Dsquid:S1481"(Remove this unused "max" local variable.(·Ü¢Æüÿÿÿÿ
+?squid:S1481"(Remove this unused "min" local variable.(Şà´î
+Fsquid:S1481"*Remove this unused "piont" local variable.(ŸßÓİúÿÿÿÿ
+@squid:S1481")Remove this unused "Flag" local variable.(¥¨ ¿
+isquid:S3776E"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ëú½®
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¹šñûÿÿÿÿ
+fsquid:S00100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëú½®
+Usquid:S1854"9Remove this useless assignment to local variable "piont".(ŸßÓİúÿÿÿÿ
+Nsquid:S1854"7Remove this useless assignment to local variable "min".(Şà´î
+Ssquid:S1854"7Remove this useless assignment to local variable "max".(·Ü¢Æüÿÿÿÿ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é™á
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¨ ¿
+qsquid:UselessImportCheck"HRemove this unused import 'weka.core.pmml.jaxbbindings.MiningBuildTask'.(¿Êí™ıÿÿÿÿ

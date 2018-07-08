@@ -1,0 +1,11 @@
+
+Rsquid:UselessImportCheck"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw
+‡squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Õ¿»ˆ
+Xsquid:S1118
+":Add a private constructor to hide the implicit public one.(”—å8 ÈŠÄÆ,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â† ı8íµÅÆ,
+Vsquid:UselessImportCheck"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Õ¿»ˆ
+O
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ú˜¶
+‰squid:S1319"rThe type of the "preList" object should be an interface such as "List" rather than the implementation "ArrayList".(Õ¿»ˆ

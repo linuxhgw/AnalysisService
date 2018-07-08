@@ -1,0 +1,7 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æ«á‰ùÿÿÿÿ
+^squid:UselessImportCheck":Remove this unused import 'edu.jhun.bean.RequestedString'.(ò­œæ
+]squid:UselessImportCheck	"4Remove this unused import 'edu.jhun.utils.DBHelper'.(ìƒÏýýÿÿÿÿ
+Vsquid:UselessImportCheck"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ
+N
+squid:S106""9Replace this use of System.out or System.err by a logger.(£Áö

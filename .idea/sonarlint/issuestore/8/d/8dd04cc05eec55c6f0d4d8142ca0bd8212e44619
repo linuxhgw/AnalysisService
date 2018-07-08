@@ -1,0 +1,13 @@
+
+Hsquid:S1068"*Remove this unused "reqStr" private field.(ÌÇ„š8µ›½ÆÆ,
+zsquid:S00116"VRename this field "AttributeId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Ì¹µÿÿÿÿÿ8±»ÆÆ,
+vsquid:S00116"WRename this field "AttributeId2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°íşˆ8Ëà½ÆÆ,
+psquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ñÇ‚8ÆÎÆÆ,
+rsquid:S00100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÜ’úÿÿÿÿ8×–ÇÆÆ,
+qsquid:S00116"SRename this field "MemberId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢±úo8ï¼ÆÆ,
+T
+squid:S106a"9Replace this use of System.out or System.err by a logger.(ĞÁğşşÿÿÿÿ
+Qsquid:S1068".Remove this unused "steplength" private field.(à‘¿Éıÿÿÿÿ8“¨ÆÆ,
+Psquid:S1068"-Remove this unused "attrIndex" private field.(áãŠ•ÿÿÿÿÿ8“¨ÆÆ,
+usquid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ø£œıÿÿÿÿ8ò‘ĞÆÆ,
+tsquid:S00116"PRename this field "RunID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–½ş–ûÿÿÿÿ8‡À¼ÆÆ,

@@ -23,7 +23,10 @@ public class MutilAttributeRequestedString extends RequestedString {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "方案名:"+getCaseName()+"运行次数："+ getRunID()+"  MemberId:"+getMemberId()+"  another:"+getAnotherAtrributes()+"  startStep:"+getStartStep()+"  endStep:"+getEndStep();
+		return "方案名:"+getCaseName()+"运行次数："+ getRunID()+
+				"  MemberId:"+getMemberId()+"  another:"+getAnotherAtrributes()+
+				"  startStep:"+getStartStep()+"  endStep:"+getEndStep();
+
 	}
 	
 	

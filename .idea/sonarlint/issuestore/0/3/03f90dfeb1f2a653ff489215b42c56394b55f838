@@ -1,0 +1,71 @@
+
+rsquid:S00115/"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(á«œ¯
+dsquid:S2259Ö"EA "NullPointerException" could be thrown; "dataset" is nullable here.(êÒå€8´ÿ¼ÄÆ,
+?squid:S1148}"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+wsquid:S001151"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šÅ£¼üÿÿÿÿ
+dsquid:S2095‹"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ä‘Ô‰
+W
+squid:S106¡"9Replace this use of System.out or System.err by a logger.(ã×À½8¬—¸ÄÆ,
+rsquid:S00115)"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Å¿ê×
+zsquid:S1192‚"]Define a constant instead of duplicating this literal "  Request the Service -END: " 3 times.(åÂµ†üÿÿÿÿ
+@squid:S1148«"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+wsquid:S00115("ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬²ñşÿÿÿÿ
+@squid:S1148™"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(š’Å§ÿÿÿÿÿ
+wsquid:S00115'"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æòœùÿÿÿÿ
+@squid:S1148–"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+{squid:S1192o"_Define a constant instead of duplicating this literal "  Request the Service -START: " 3 times.(³üŞÁøÿÿÿÿ
+wsquid:S00115+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ñä’£øÿÿÿÿ
+ssquid:S2068^"P'Pwd' detected in this expression, review this potentially hardcoded credential.(›’¶ƒÿÿÿÿÿ8´ÿ¼ÄÆ,
+U
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(åÂµ†üÿÿÿÿ
+U
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(åÂµ†üÿÿÿÿ
+Fsquid:S1148h"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8´ÿ¼ÄÆ,
+9squid:S1643"Use a StringBuilder instead.(¡ƒÿÿÿÿÿ
+dsquid:S1126M"AReplace this if-then-else statement by a single return statement.(¸½èÿùÿÿÿÿ8»¬ºÄÆ,
+Usquid:S1135J"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8»¬ºÄÆ,
+U
+squid:S106›"9Replace this use of System.out or System.err by a logger.(åÂµ†üÿÿÿÿ
+P
+squid:S106†"9Replace this use of System.out or System.err by a logger.(•¯š‡
+Ysquid:S1854="6Remove this useless assignment to local variable "s2".(ËöÎùùÿÿÿÿ8»¬ºÄÆ,
+P
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(•¯š‡
+wsquid:S001152"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Àò”şÿÿÿÿ
+asquid:S2095…"IUse try-with-resources or close this "PrintStream" in a "finally" clause.(‹Áí¸
+[
+squid:S106D"9Replace this use of System.out or System.err by a logger.(®šóöøÿÿÿÿ8»¬ºÄÆ,
+rsquid:S00115,"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿íãş
+hsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(öñ»¶ùÿÿÿÿ
+Osquid:S1135˜"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+O
+squid:S106²"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+rsquid:S00115."ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘ÿ¿Í
+Fsquid:S1148K"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8»¬ºÄÆ,
+rsquid:S001150"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ì‰¹
+bsquid:S1192ƒ"JDefine a constant instead of duplicating this literal "\nResult:" 3 times.(Éı‹Ô
+rsquid:S00115*"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ú¥³²
+U
+squid:S106Î"9Replace this use of System.out or System.err by a logger.(³üŞÁøÿÿÿÿ
+P
+squid:S106’"9Replace this use of System.out or System.err by a logger.(…ò£—
+P
+squid:S106±"9Replace this use of System.out or System.err by a logger.(•¯š‡
+Zsquid:S1854;"<Remove this useless assignment to local variable "schemeId".(å•Ø÷8»¬ºÄÆ,
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(³üŞÁøÿÿÿÿ
+rsquid:S00115-"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(îÂë’
+Osquid:S1135•"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Tsquid:S18548"6Remove this useless assignment to local variable "s1".(òöÒß8»¬ºÄÆ,
+U
+squid:S106Ã"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+@squid:S1148ü"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Vsquid:S2130?"9Use "Integer.parseInt" for this string-to-int conversion.(šˆùC8»¬ºÄÆ,
+esquid:S2095„"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Í»œº
+Ksquid:S1481;"-Remove this unused "schemeId" local variable.(å•Ø÷8»¬ºÄÆ,
+rsquid:S00115&"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰±à¬
+4squid:S1643µ"Use a StringBuilder instead.(‰Ñ‹˜
+T
+squid:S106o"9Replace this use of System.out or System.err by a logger.(³üŞÁøÿÿÿÿ
